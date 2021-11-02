@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Legislature Size and Welfare:   Evidence from Brazil     </title>
+    <meta charset="utf-8" />
+    <meta name="author" content=" Gabriel Cepaluni, São Paulo State University   Danilo Freire, University of Lincoln   Umberto Mignozzetti, Emory University    " />
+    <meta name="date" content="2021-03-11" />
+    <script src="legislature_files/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: middle, left, title-slide
+
+# Legislature Size and Welfare: <br> Evidence from Brazil <br><br><br><br>
+### <font size="6"> Gabriel Cepaluni, São Paulo State University <br> Danilo Freire, University of Lincoln <br> Umberto Mignozzetti, Emory University <br><br> </font>
+### <font size="6">03/11/2021</font>
+
+---
+
+
+
+
+# Motivation
+
+* Institutional design significantly impacts redistributive politics
+
+--
+
+* Yet little is known about the effect of legislative features on policy outcomes
+
+--
+
+* Here we tackle one question that all democracies face in their institution building process: 
+
+--
+
+* **Does increasing legislature size result in better public service delivery?**
+
+---
+
+# Motivation
+
+* The number of legislators affects policymaking, taxation, government spending, and representation
+
+--
+
+* However, larger legislatures not only increase bargaining costs to the government...
+
+--
+
+* ..but they can also be expensive to taxpayers
+
+---
+
+# Motivation
+
+.pull-left[
+&lt;div class="figure"&gt;
+&lt;img src="alltowns.png" alt="Councils that cost more than US$ 80.00 per capita (red dots)" width="80%" /&gt;
+&lt;p class="caption"&gt;Councils that cost more than US$ 80.00 per capita (red dots)&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+&lt;div class="figure"&gt;
+&lt;img src="mostexpensive.png" alt="City with highest cost per capita: US$ 400" width="655" /&gt;
+&lt;p class="caption"&gt;City with highest cost per capita: US$ 400&lt;/p&gt;
+&lt;/div&gt;
+]
+
+---
+
+# What we do
+
+* We propose a formal model to explain how legislature size affects bargaining costs in city councils
+
+* We exploit exogenous variation in Brazilian city council sizes and test whether larger legislatures improve public service provision
+
+* We analyse the contents of 346,553 bills to see whether there is an increase in legislation related to public service delivery
+
+* We run a survey with 174 former councillors to investigate potencial political mechanisms and provide qualitative evidence for our results 
+
+---
+
+# What we find
+
+* Larger city councils change the composition of mayoral coalitions and the number of appointed bureaucrats in the municipality
+
+* The extra city councillor had a 91 percent chance of belonging to the mayor's pre-electoral coalition, what *decreased* the bargaining costs for the mayor and boosted investments in public services
+
+* Municipalities with larger city councils had around 15 percent more public goods provision proposals
+
+---
+
+# What we find
+
+* Increasing the city council size by one legislator lowers infant mortality by 2 children per one thousand infants born and reduces post-neonatal mortality by 0.90 children per one thousand infants that survived their first 28 days
+
+* A larger council size also increased enrolment by 2.58 children in elementary education classrooms without diminishing school quality
+
+* **In sum, increasing legislature size does result in better public service provision** (at least in Brazil!)
+
+---
+
+# Number of legislators and social welfare
+
+* Alchian and Demzets (1972): team productivity
+  - More legislators: increased productivity frontier but risk of moral hazard
+
+* Weingast et al. (1981): Law of 1/*n*
+  - Diffuse costs and concentrated benefits: Free-riding on common pool taxes. Overprovision (?)
+
+* Crain et al. (1979, 1982, 2012): Representation of interest groups
+  - Easier to lobby but coordination problems within legislature
+  - More representation, better service provision
+
+* Empirical findings: mixed evidence
+
+---
+
+# Our theory: bargaining costs and partisanship
+
+* We propose a **legislature bargaining** game:
+
+* The municipality has `\(R\)` resources, and it is comprised of a mayor (Executive) and a city council (Legislative)
+* The mayor and the city council bargain over public goods provision and rents
+* The proposal has:
+  - A public goods provision level ( `\(g\)` )
+  - Rents for the councillors ( `\(\textbf{x}\)` ) and for the mayor ( `\(r\)` )
+
+* If the simple majority of the councillors accept the proposal, it is implemented. Otherwise, it is rejected.
+
+---
+
+# Game timeline
+
+* Timeline:
+  - The mayor learns how many government `\(|G|\)` and opposition `\(|O|\)` legislators were elected
+  - The mayor proposes a policy vector `\((r, g, \textbf{x})_M\)`
+  - The city council votes the proposal
+
+* If the council accepts, policy is implemented and game ends
+* Otherwise, the reversal policy is implemented
+  
+* _Reversal Policy:_ The budget is discounted by a factor `\(\delta \in (0,1)\)`, and one councillor is randomly selected to make an offer. If the offer is accepted, it is implemented. If rejected, the reversal policy stage restarts
+
+---
+
+# Governing costs without partisanship
+
+* (_After some algebra, which I'll happily skip here!_)
+
+* In the baseline non-partisan reversal, bargaining costs always increase when the size of the legislature increases
+
+.center[
+&lt;div class="figure"&gt;
+&lt;img src="govcostsnopart.png" alt="Bargaining costs increase with increasing legislature size" width="50%" /&gt;
+&lt;p class="caption"&gt;Bargaining costs increase with increasing legislature size&lt;/p&gt;
+&lt;/div&gt;
+]
+
+---
+
+# Governing costs with partisanship
+
+* If the chances of electing a councillor aligned with the mayor are high, increasing legislature size decreases the costs of governing
+
+* Thus, more public goods provision (and rents)
+
+.center[
+&lt;div class="figure"&gt;
+&lt;img src="govcostspartconcern.png" alt="Bargaining costs decrease with partisanship" width="80%" /&gt;
+&lt;p class="caption"&gt;Bargaining costs decrease with partisanship&lt;/p&gt;
+&lt;/div&gt;
+]
+
+---
+
+# Empirical strategy
+
+* Brazil is the ideal test ground for this theory
+  - The country has wide variation in terms of welfare
+  - The budget is mostly fixed (transfers)
+  - And city council size changed 2005 and 2008 in a way that allows us to study the effect council size on welfare
+
+* Councils before law change:
+
+.center[
+&lt;img src="table01.png" width="90%" /&gt;
+] 
+
+---
+
+# Arbitrary council sizes
+
+* Municipalities used to define council sizes inefficiently:
+
+.pull-left[
+&lt;div class="figure"&gt;
+&lt;img src="novasrussas-1.png" alt="Nova Russa (25,000 inhabitants and 21 councilors)" width="90%" /&gt;
+&lt;p class="caption"&gt;Nova Russa (25,000 inhabitants and 21 councilors)&lt;/p&gt;
+&lt;/div&gt;
+]
+
+.pull-right[
+&lt;div class="figure"&gt;
+&lt;img src="sorocaba-1.png" alt="Sorocaba (550,000 inhabitants and 14 councilors)" width="90%" /&gt;
+&lt;p class="caption"&gt;Sorocaba (550,000 inhabitants and 14 councilors)&lt;/p&gt;
+&lt;/div&gt;
+]
+
+---
+
+# Mira Estrela
+
+.center[
+&lt;div class="figure"&gt;
+&lt;img src="miraestrela2-1.png" alt="Mira Estrela: 2,000 inhabitants and 11 councilors" width="80%" /&gt;
+&lt;p class="caption"&gt;Mira Estrela: 2,000 inhabitants and 11 councilors&lt;/p&gt;
+&lt;/div&gt;
+]
+
+---
+
+# Supreme Court ruling
+
+.center[
+&lt;img src="distrSeats-1.png" width="80%" /&gt;
+]
+
+---
+
+# Estimation
+
+* Sharp RD: municipalities closer to thresholds are comparable
+* Only difference: legislature size
+* A perfect RDD estimation relies on three hypothesis: 
+  - No manipulation
+  - For multiple thresholds: multiplicity correction
+  - No pre-treatment variation.
+
+* We developed an estimation technique for the multiple cutoffs problem.
+
+---
+
+# Legislature size, representation, and composition of local chambers
+
+* **_H1_**: Bargaining costs decrease with legislature size when the chance of electing a government-aligned legislator is high
+* **_H2_**: Public goods provision increases when bargaining costs decrease
+
+* Alternative hypothesis:
+  - **_AH1_**: Female representation increases with legislature size
+  - **_AH2_**: Non-whites representation increase with legislature size
+  - **_AH3_**: Election competitiveness increases with legislature size
+  - **_AH4_**: The legislative production increases with legislature size
+
+---
+
+# Legislature size, representation, and composition of local chambers
+
+.center[
+&lt;img src="fig1.png" width="65%" /&gt;
+]
+
+---
+
+# Effect of legislature size on welfare
+
+.center[
+&lt;img src="fig5.png" width="65%" /&gt;
+]
+
+---
+
+# Evidence from proposed legislation
+
+.center[
+&lt;img src="fig4.png" width="80%" /&gt;
+]
+
+---
+
+# Evidence from former legislators
+
+.center[
+&lt;img src="fig2.png" width="80%" /&gt;
+]
+
+---
+
+# Discussion
+
+* Partisanship considerably decreases bargaining costs, improving welfare
+
+* Increasing the council size results in gains in elementary school enrolment and in lower infant mortality without decreasing school quality
+
+* Our findings are consistent with the hypothesis that former Presidents Cardoso and Lula increased social indicators due to large government coalitions
+
+---
+
+# Discussion
+
+* Implications that extend beyond Brazil. Several countries have local city councils and multiparty systems, so the dynamics we expose here may explain how fragmented legislatives are not synonymous with policy paralysis
+
+* In contrast with well-established theories that point out that multipartism is a peril to democratic regimes
+
+* Our findings may help us understand why countries in Latin America and Asia can generate effective governance despite having strong executives and large coalitions
+
+---
+
+# Further research
+
+* If the mechanism we suggest is indeed at work, more support for the Executive means better public goods
+  - How extensive should the city council's checking prerogatives be, as they significantly reduce the provision of public services?
+
+* It remains uncertain how other legislative features affect welfare
+  - What is the effect of monetary compensation for councillors and committee structure on public welfare?
+
+--
+
+* **Any suggestions on how to tackle these questions are greatly appreciated! :)**
+
+---
+
+class: center, middle, inverse
+
+# Thank you very much!
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"ratio": "16:10",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
