@@ -89,7 +89,7 @@ knitr::include_graphics("mostexpensive.png")
 
 * We analyse the contents of 346,553 bills to see whether there is an increase in legislation related to public service delivery
 
-* We run a survey with 174 former councillors to investigate potencial political mechanisms and provide qualitative evidence for our results 
+* We survey 174 former councillors to investigate potencial political mechanisms and provide qualitative evidence for our results 
 
 ---
 
@@ -244,7 +244,7 @@ knitr::include_graphics("distrSeats-1.png")
 
 * Sharp RD: municipalities close to thresholds are comparable
 * Only difference: legislature size
-* A perfect RDD estimation relies on three hypothesis: 
+* A perfect RDD estimation relies on three assumptions: 
   - No manipulation
   - For multiple thresholds: multiplicity correction
   - No pre-treatment variation.
